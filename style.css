@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccc;
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: red;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}/* Màu cơ bản */
+.red {
+  color: #FF0000; /* Đỏ */
+}
+.green {
+  color: #00FF00; /* Xanh lá cây */
+}
+.blue {
+  color: #0000FF; /* Xanh dương */
+}
+.yellow {
+  color: #FFFF00; /* Vàng */
+}
+.orange {
+  color: #FFA500; /* Cam */
+}
+.purple {
+  color: #800080; /* Tím */
+}
+.pink {
+  color: #FFC0CB; /* Hồng */
+}
+.black {
+  color: #000000; /* Đen */
+}
+.white {
+  color: #FFFFFF; /* Trắng */
+}
+.gray {
+  color: #808080; /* Xám */
+}
+.brown {
+  color: #A52A2A; /* Nâu */
+}
+.turquoise {
+  color: #40E0D0; /* Xanh ngọc */
+}
+.dark-green {
+  color: #006400; /* Xanh lá đậm */
+}
+.light-sky-blue {
+  color: #87CEEB; /* Xanh trời nhạt */
+}
+.gold {
+  color: #FFD700; /* Vàng ánh kim */
+}
+.silver {
+  color: #C0C0C0; /* Bạc */
+}
+.chocolate {
+  color: #D2691E; /* Sô cô la */
+}
+.coral {
+  color: #FF7F50; /* San hô */
+}
+.tomato {
+  color: #FF6347; /* Cà chua */
+}
+.lime {
+  color: #00FF00; /* Chanh */
+}
+.aqua {
+  color: #00FFFF; /* Xanh lơ */
+}
+.indigo {
+  color: #4B0082; /* Chàm */
+}
+.navy {
+  color: #000080; /* Xanh nước biển đậm */
+}
+.teal {
+  color: #008080; /* Xanh lục lam đậm */
+}
+.maroon {
+  color: #800000; /* Nâu đỏ */
+}
+.crimson {
+  color: #DC143C; /* Đỏ thắm */
+}

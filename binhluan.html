@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống bình luận</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .comment-box {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 10px;
+        }
+        .comment {
+            background: #f1f1f1;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bình luận</h2>
+    <textarea id="commentInput" class="comment-box" rows="3" placeholder="Nhập bình luận..."></textarea>
+    <button onclick="addComment()">Gửi</button>
+    <div id="commentSection"></div>
+
+    <script>
+        function addComment() {
+            let input = document.getElementById("commentInput");
+            let commentText = input.value.trim();
+            if (commentText === "") return;
+            
+            let commentDiv = document.createElement("div");
+            commentDiv.classList.add("comment");
+            commentDiv.textContent = commentText;
+            
+            document.getElementById("commentSection").appendChild(commentDiv);
+            input.value = "";
+        }
+    </script>
+</body>
+</html>
